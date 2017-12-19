@@ -1,5 +1,6 @@
 # 42-FdF
-An introduction project to the graphics branch @ 42. 
+An introduction project to the graphics branch @ 42.
+
 Reads in a height map to generate a 3D model that the user can interact with!
 
 ### Installation
