@@ -6,7 +6,7 @@ Reads in a height map to generate a 3D model that the user can interact with!
 ### Installation
 To generate an executable for this project run `make` in the root of the project directory. If the `make` command fails, check if the minilibx folder is empty. If so, you may have to run `git submodule update --init --recursive` to initialize and get the files for the minilibx submodule.
 
-This project will only work on MacOS El Capitan/Sierra and even then, no promises! 
+This project will only work on MacOS El Capitan/Sierra/HighSierra(maybe) and even then, no promises! 
 
 ### Usage
 After running `make` to generate the fdf executable you can run the program with `./fdf [valid_fdf_file]`.
