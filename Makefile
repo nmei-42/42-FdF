@@ -19,6 +19,7 @@ ifeq ($(TARGETOS), Darwin)
 	OSXRELEASE := $(shell uname -r | sed 's/\..*//')
 	ifeq ($(OSXRELEASE), 17)
 		OSXVER = highsierra
+		MLX = $(addprefix $(MLX_BASEDIR), minilibx_macos_sierra)
 	endif
 	ifeq ($(OSXRELEASE), 16)
 		OSXVER = sierra
